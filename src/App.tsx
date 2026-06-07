@@ -1,10 +1,11 @@
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import React from "react";
 import UserList from "./pages/UserList";
 import UserDetail from "./pages/UserDetail";
 import AddUser from "./pages/AddUser";
 import EditUser from "./pages/EditUser";
 
-export default function App(): JSX.Element {
+export default function App(): React.JSX.Element {
   return (
     <BrowserRouter>
       <Routes>
